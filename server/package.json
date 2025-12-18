@@ -1,0 +1,16 @@
+{
+    "name": "smart-calculator-server",
+    "version": "1.0.0",
+    "description": "Backend for Smart Calculator",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "better-sqlite3": "^9.0.0",
+        "mathjs": "^12.0.0",
+        "body-parser": "^1.20.2"
+    }
+}
